@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard HUT RI 80</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Dashboard HUT RI ke-80</h1>
+    <p id="userRole"></p>
+    <button onclick="logout()">Logout</button>
+  </header>
+  <main>
+    <section id="pemasukan">
+      <h2>Data Pemasukan</h2>
+      <ul id="listPemasukan"></ul>
+      <p><strong>Total:</strong> <span id="totalPemasukan">Rp 0</span></p>
+    </section>
+
+    <section id="pengeluaran">
+      <h2>Data Pengeluaran</h2>
+      <ul id="listPengeluaran"></ul>
+      <p><strong>Total:</strong> <span id="totalPengeluaran">Rp 0</span></p>
+    </section>
+
+    <section id="formInput" style="display: none;">
+      <h3>Tambah Data Anggaran</h3>
+      <input type="text" id="keterangan" placeholder="Keterangan">
+      <input type="number" id="jumlah" placeholder="Jumlah (Rp)">
+      <select id="jenis">
+        <option value="pemasukan">Pemasukan</option>
+        <option value="pengeluaran">Pengeluaran</option>
+      </select>
+      <button onclick="tambahData()">Tambah</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

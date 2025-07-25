@@ -1,0 +1,13 @@
+{
+  "pemasukan": [
+    { "keterangan": "Iuran Warga", "jumlah": 2000000 },
+    { "keterangan": "Donatur", "jumlah": 3000000 },
+    { "keterangan": "Sponsor", "jumlah": 1500000 }
+  ],
+  "pengeluaran": [
+    { "keterangan": "Dekorasi", "jumlah": 1000000 },
+    { "keterangan": "Hiburan", "jumlah": 1500000 },
+    { "keterangan": "Konsumsi", "jumlah": 1000000 },
+    { "keterangan": "Hadiah", "jumlah": 500000 }
+  ]
+}
